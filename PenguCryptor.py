@@ -9,7 +9,7 @@ backend = default_backend()
 while True:
 	while True:
 		root = input("Root> ").upper()
-		if root == 'C':
+		if root == 'C' or root == '/':			
 			print("Are you sure? (Y)es/(N)o")
 			sure = input('> ').lower()
 			if sure == "yes" or sure == 'y':
